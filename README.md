@@ -1,4 +1,5 @@
 Slightly customized us and ru layouts for squeekboard for use with Poco X3 Pro (vayu) on 300% scaling.
+Also added the little hack so the russian layout would mostly work correctly in all apps.
 
 It's a little wider than original, so it extends to the edges of the screen and also have `comma` key on the default view, so you don't need to switch to numbers to type it.
 
