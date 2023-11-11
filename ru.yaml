@@ -1,25 +1,31 @@
 ---
 outlines:
-    default: { width: 40, height: 60 }
-    return: { width: 95, height: 60 }
-    altline: { width: 40, height: 60 }
-    wide: { width: 57, height: 60 }
-    narrow: { width: 26, height: 60 }
-    spaceline: { width: 107, height: 60 }
-    fill: { width: 159, height: 60 }
-    special: { width: 42, height: 60 }
+    default: { width: 48.33, height: 68 }
+    return: { width: 100, height: 56 }
+    altline: { width: 48.33, height: 68 }
+    wide: { width: 55, height: 57 }
+    spaceline: { width: 250, height: 57 }
+    special: { width: 40, height: 57 }
+    commadot: { width: 40, height: 57 }
+
+    additional: { width: 23, height: 57 }
+    fill: { width: 159, height: 57 }
 
 views:
     base:
         - "й ц у к е н г ш щ з х"
         - "ф ы в а п р о л д ж э"
         - "Shift_L  я ч с м и т ь б ю  BackSpace"
-        - "show_numbers preferences  comma  ё  space  ъ  period Return"
+        - "ё ъ show_numbers comma  space  period Return"
     upper:
         - "Й Ц У К Е Н Г Ш Щ З Х"
         - "Ф Ы В А П Р О Л Д Ж Э"
         - "Shift_L   Я Ч С М И Т Ь Б Ю  BackSpace"
-        - "show_numbers preferences  comma  Ё  space  Ъ  comma Return"
+        - "show_numbers comma  Ё  space  Ъ  period Return"
+    hack:
+        - "Q W E R T Y U I O P"
+        - "A S D F G H J K L"
+        - "Shift_L   Z X C V B N M  BackSpace"
     numbers:
         - "1 2 3 4 5 6 7 8 9 0"
         - "@ # $ % & - _ + ( )"
@@ -68,10 +74,10 @@ buttons:
         outline: "wide"
         label: "*/="
     period:
-        outline: "special"
+        outline: "commadot"
         text: "."
     comma:
-        outline: "special"
+        outline: "commadot"
         text: ","
     space:
         outline: "spaceline"
@@ -86,10 +92,10 @@ buttons:
     colon:
         text: ":"
     ё:
-        outline: "narrow"
+        outline: "additional"
     Ё:
-        outline: "narrow"
+        outline: "additional"
     ъ:
-        outline: "narrow"
+        outline: "additional"
     Ъ:
-        outline: "narrow"
+        outline: "additional"
